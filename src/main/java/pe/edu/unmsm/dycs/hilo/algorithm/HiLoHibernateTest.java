@@ -25,18 +25,18 @@ public class HiLoHibernateTest {
 		factory = config.buildSessionFactory(serviceRegistry);
 
 		HiLoHibernateTest hbTest = new HiLoHibernateTest();
-		hbTest.insertUser(0, "Mark", "Johnson", "mark.johnson@gmail.com", "mjohnson");
-		hbTest.insertUser(0, "Samuel", "Johnson", "sam.johnson@gmail.com", "sjohnson");
-		hbTest.insertUser(0, "Mark", "Johnson", "mark.johnson@gmail.com", "mjohnson");
-		hbTest.insertUser(0, "Samuel", "Johnson", "sam.johnson@gmail.com", "sjohnson");
-		hbTest.insertUser(0, "Mark", "Johnson", "mark.johnson@gmail.com", "mjohnson");
-		hbTest.insertUser(0, "Samuel", "Johnson", "sam.johnson@gmail.com", "sjohnson");
-		hbTest.insertUser(0, "Mark", "Johnson", "mark.johnson@gmail.com", "mjohnson");
-		hbTest.insertUser(0, "Samuel", "Johnson", "sam.johnson@gmail.com", "sjohnson");
-		hbTest.insertUser(0, "Mark", "Johnson", "mark.johnson@gmail.com", "mjohnson");
-		hbTest.insertUser(0, "Samuel", "Johnson", "sam.johnson@gmail.com", "sjohnson");
-		hbTest.insertUser(0, "Mark", "Johnson", "mark.johnson@gmail.com", "mjohnson");
-		hbTest.insertUser(0, "Samuel", "Johnson", "sam.johnson@gmail.com", "sjohnson");
+		hbTest.insertUser(0, "Frank", "Johnson", "frank.che88@gmail.com", "Jonislla");
+		hbTest.insertUser(0, "Henry", "Johnson", "henry.gustavo@gmail.com", "fuentes");
+		hbTest.insertUser(0, "Frank", "Johnson", "frank.che88@gmail.com", "Jonislla");
+		hbTest.insertUser(0, "Henry", "Johnson", "henry.gustavo@gmail.com", "fuentes");
+		hbTest.insertUser(0, "Frank", "Johnson", "frank.che88@gmail.com", "Jonislla");
+		hbTest.insertUser(0, "Henry", "Johnson", "henry.gustavo@gmail.com", "fuentes");
+		hbTest.insertUser(0, "Frank", "Johnson", "frank.che88@gmail.com", "Jonislla");
+		hbTest.insertUser(0, "Henry", "Johnson", "henry.gustavo@gmail.com", "fuentes");
+		hbTest.insertUser(0, "Frank", "Johnson", "frank.che88@gmail.com", "Jonislla");
+		hbTest.insertUser(0, "Henry", "Johnson", "henry.gustavo@gmail.com", "fuentes");
+		hbTest.insertUser(0, "Frank", "Johnson", "frank.che88@gmail.com", "Jonislla");
+		hbTest.insertUser(0, "Henry", "Johnson", "henry.gustavo@gmail.com", "fuentes");
 
 		List<User> users = hbTest.listUsers();
 		for (User u : users) {

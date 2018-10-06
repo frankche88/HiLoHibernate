@@ -4,11 +4,11 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/corralito</property>
+        <property name="hibernate.connection.driver_class">org.h2.Driver</property>
+        <property name="hibernate.connection.url">jdbc:h2:./db/hilo;MODE=MYSQL</property>
         
-        <property name="hibernate.connection.user">root</property>
-        <property name="hibernate.connection.password">r00t</property>
+        <property name="hibernate.connection.user">sa</property>
+        <property name="hibernate.connection.password">sa</property>
         
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.id.new_generator_mappings">true</property>
